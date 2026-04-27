@@ -11,7 +11,7 @@ import { Analytics } from './pages/Analytics';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/gymtracker-app">
       <Layout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
